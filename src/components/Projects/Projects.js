@@ -3,12 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Blog from "../../Assets/Projects/Blog.png";
+import Chat from "../../Assets/Projects/Chat.png";
+import coSource from "../../Assets/Projects/coSource.png";
+import ecom from "../../Assets/Projects/ecom.jpg";
+import photostall from "../../Assets/Projects/photostall.png";
+import weatherapp from "../../Assets/Projects/weatherapp.png";
 
 function Projects() {
   return (
@@ -24,62 +24,61 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Blog}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Blogger's Platform"
+              description="A blogger's platform with basic CRUD(Create,Read,Update,Delete) functionality built using Django, Reactjs, Postgresql, Django REST framework, Bootstrap. Supports authentication, Dark theme, Categories, User Profile, Add/Read comments"
+              link="https://github.com/VDA-001/blog-django-react"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={ecom}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Ecom"
+              description="Ecommerce website to share clothing built using Reactjs, Django, Django REST framework, Bootstrap, Braintree(Payment gateway) .It has functionalities such as Payment gateway, Cart, Buy, authentication."
+              link="https://github.com/VDA-001/Ecom"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={photostall}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="Photostall"
+              description="Photostall is a website used to view or upload the best photographs you have taken. This project was done for photographer's to upload or view other's photo's as well. This was built entirely using Django and Bootstrap. It has basic authentication, Profile, Download image, Categories."
+              link="https://github.com/VDA-001/PhotoStall"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Chat}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Chat-App"
+              description="A Real-time public chat application built using Reacjs, firebase, Bootstrap. It has Authentication with google functionality and deployed at firebase."
+              link="https://github.com/VDA-001/Chat-App-React"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={weatherapp}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Weather App React"
+              description="A weather app that shows weather reading of 5 days of a particular time. Built using Reactjs as frontend, Firebase as backend and Bootstrap. This app uses OpenWeatherMap's API to get acurate discription of the weather"
+              link="https://github.com/VDA-001/Weather-app-react"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={coSource}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Co-Source"
+              description="Co-Source is platform to get validated information about the resources of covid-19 built during a hackathon. The resources are validated by use of volunteers who get credit points in return of validating a information. This was built using reactjs and django."
+              link="https://github.com/VDA-001/co_source"
             />
           </Col>
         </Row>

@@ -4,12 +4,14 @@ import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
-  DiMongodb,
+  DiDjango,
+  DiPostgresql,
   DiPython,
   DiGit,
+  DiBootstrap,
+  DiCss3,
+  DiSass,
 } from "react-icons/di";
-import { SiPytorch, SiTensorflow, SiFirebase } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -21,28 +23,28 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiDjango />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <DiBootstrap />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTensorflow />
+        <DiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <DiSass />
       </Col>
     </Row>
   );
