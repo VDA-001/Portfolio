@@ -27,8 +27,7 @@ function Home2() {
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Products </b> and also in fields such
-                as <b className="purple">Competitive Programming</b> and{" "}
-                <b className="purple">Open Source</b>
+                as <b className="purple">Open Source</b>
               </i>
               <br />
               <br />
